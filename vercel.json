@@ -5,11 +5,7 @@
       "destination": "/backend/$1"
     }
   ],
-  "functions": {
-    "backend/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
+
   "builds": [
     {
       "src": "backend/server.js",
