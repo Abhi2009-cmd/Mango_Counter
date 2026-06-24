@@ -6,6 +6,7 @@
     }
   ],
 
+  "outputDirectory": "frontend/dist",
   "builds": [
     {
       "src": "backend/server.js",
