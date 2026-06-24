@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/backend/$1"
+        }
+    ],
+    "functions": {
+        "backend/**/*.js": {
+            "runtime": "nodejs18.x"
+        }
+    },
+    "static": {
+        "directory": "frontend/dist"
+    }
+}
